@@ -10,7 +10,7 @@ namespace LiquidBottler
 
         private Controller.Instance smi;
 
-        public bool dropWhenFull = false;
+        public bool dropWhenFull = true;
 
         protected override void OnSpawn()
         {
